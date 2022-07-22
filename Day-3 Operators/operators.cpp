@@ -15,11 +15,9 @@ string rtrim(const string &);
  */
 
 void solve(double meal_cost, int tip_percent, int tax_percent) {
-    double afterTip = (tip_percent/100)*20;
-    double afterTax = (tax_percent/100)*20;
-    double total = meal_cost + afterTax + afterTip;
-    cout<<afterTax<<afterTip;
-
+    float afterTip = meal_cost/100*tip_percent;
+    float afterTax = meal_cost/100*tax_percent;
+    int total = meal_cost + afterTax + afterTip;
     cout<<"The total Cost is "<<total;
 }
 
