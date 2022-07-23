@@ -20,8 +20,7 @@ public class Person {
   		// Write code determining if this person's age is old and print the correct statement:
 		  if(age<=13)
 		  {
-			  System.out.println("You are young.
-");
+			  System.out.println("You are young.");
 		  }
 		  else if(age<=18){
 			  System.out.println("You are a teenager.");
@@ -34,7 +33,7 @@ public class Person {
 
 	public void yearPasses() {
   		// Increment this person's age.
-		  initialAge++;
+		  ++age;
 	}
 
 	public static void main(String[] args) {
