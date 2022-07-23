@@ -22,10 +22,10 @@ public class Person {
 		  {
 			  System.out.println("You are young.");
 		  }
-		  else if(age<=18){
+		  else if(age<18 && age>13){
 			  System.out.println("You are a teenager.");
 		  }
-		  else
+		  else if(age>=18)
 		  {
 			  System.out.println("You are old.");
 		  }
@@ -33,7 +33,7 @@ public class Person {
 
 	public void yearPasses() {
   		// Increment this person's age.
-		  ++age;
+		  age++;
 	}
 
 	public static void main(String[] args) {
