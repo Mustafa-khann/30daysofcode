@@ -15,6 +15,7 @@ string rtrim(const string &);
  *  3. INTEGER tax_percent
  */
 
+/*The Solution Function I wrote*/ 
 void solve(double meal_cost, int tip_percent, int tax_percent) {
     double afterTip = meal_cost/100*tip_percent;
     double afterTax = meal_cost/100*tax_percent;
