@@ -13,7 +13,22 @@ int main()
     getline(cin, N_temp);
 
     int N = stoi(ltrim(rtrim(N_temp)));
-
+    if(N%2!=0)
+    {
+        cout<<"Weird";
+    }
+    else if(N%2==0 && N>=2 && N<=4)
+    {
+        cout<<"not Weird";
+    }
+    else if(N%2==0 && N>=6 && N<=20)
+    {
+        cout<<"Weird";
+    }
+    else if(N%2==0 && N>=20)
+    {
+        cout<<"weird";
+    }
     return 0;
 }
 
