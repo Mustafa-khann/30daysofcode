@@ -15,22 +15,23 @@ public class Person {
 
 	public void amIOld() {
   		// Write code determining if this person's age is old and print the correct statement:
-		  if(age<13)
+		  if(age<=13)
 		  {
-			  System.out.println("young");
+			  System.out.println("You are young.
+");
 		  }
-		  else if(age<18){
-			  System.out.println("teenager");
+		  else if(age<=18){
+			  System.out.println("You are a teenager.");
 		  }
 		  else
 		  {
-			  System.out.println("old");
+			  System.out.println("You are old");
 		  }
 	}
 
 	public void yearPasses() {
   		// Increment this person's age.
-		  age+=3;
+		  age++;
 	}
 
 	public static void main(String[] args) {
