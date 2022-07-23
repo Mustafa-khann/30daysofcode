@@ -11,6 +11,9 @@ public class Person {
 			  System.out.println("Age is not valid, setting age to 0.");
 			  age = 0;
 		  }
+		  else{
+			  age = initialAge;
+		  }
 	}
 
 	public void amIOld() {
@@ -25,13 +28,13 @@ public class Person {
 		  }
 		  else
 		  {
-			  System.out.println("You are old");
+			  System.out.println("You are old.");
 		  }
 	}
 
 	public void yearPasses() {
   		// Increment this person's age.
-		  age++;
+		  initialAge++;
 	}
 
 	public static void main(String[] args) {
