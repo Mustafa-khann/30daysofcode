@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "cmath"
 
 using namespace std;
 
@@ -15,10 +16,10 @@ string rtrim(const string &);
  */
 
 void solve(double meal_cost, int tip_percent, int tax_percent) {
-    float afterTip = meal_cost/100*tip_percent;
-    float afterTax = meal_cost/100*tax_percent;
-    int total = meal_cost + afterTax + afterTip;
-    cout<<"The total Cost is "<<total;
+    double afterTip = meal_cost/100*tip_percent;
+    double afterTax = meal_cost/100*tax_percent;
+    double total = meal_cost + afterTax + afterTip;
+    cout<<round(total);
 }
 
 int main()
