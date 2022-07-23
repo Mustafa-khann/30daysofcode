@@ -26,11 +26,11 @@ public class Person {
 		  {
 			  System.out.println("old")
 		  }
-        System.out.println(/*Insert correct print statement here*/);
 	}
 
 	public void yearPasses() {
   		// Increment this person's age.
+		  age++;
 	}
 
 	public static void main(String[] args) {
