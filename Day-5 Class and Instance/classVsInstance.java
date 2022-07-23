@@ -6,6 +6,11 @@ public class Person {
   
 	public Person(int initialAge) {
   		// Add some more code to run some checks on initialAge
+		  if(initialAge<1)
+		  {
+			  System.out.println("Age is not valid, setting age to 0.");
+			  initialAge = age;
+		  }
 	}
 
 	public void amIOld() {
