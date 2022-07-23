@@ -15,7 +15,6 @@ public class Person {
 			  age = initialAge;
 		  }
 	}
-
 	public void amIOld() {
   		// Write code determining if this person's age is old and print the correct statement:
 		  if(age<=13)
