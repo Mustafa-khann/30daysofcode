@@ -9,7 +9,7 @@ public class Person {
 		  if(initialAge<1)
 		  {
 			  System.out.println("Age is not valid, setting age to 0.");
-			  initialAge = age;
+			  age = 0;
 		  }
 	}
 
@@ -20,17 +20,17 @@ public class Person {
 			  System.out.println("young");
 		  }
 		  else if(age<18){
-			  System.out.println("teenager")
+			  System.out.println("teenager");
 		  }
 		  else
 		  {
-			  System.out.println("old")
+			  System.out.println("old");
 		  }
 	}
 
 	public void yearPasses() {
   		// Increment this person's age.
-		  age++;
+		  age+=3;
 	}
 
 	public static void main(String[] args) {
