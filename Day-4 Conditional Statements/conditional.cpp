@@ -19,7 +19,7 @@ int main()
     }
     else if(N%2==0 && N>=2 && N<=4)
     {
-        cout<<"not Weird";
+        cout<<"Not Weird";
     }
     else if(N%2==0 && N>=6 && N<=20)
     {
@@ -27,7 +27,7 @@ int main()
     }
     else if(N%2==0 && N>=20)
     {
-        cout<<"weird";
+        cout<<"Not Weird";
     }
     return 0;
 }
