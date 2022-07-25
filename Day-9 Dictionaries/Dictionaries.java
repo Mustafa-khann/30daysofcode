@@ -18,7 +18,7 @@ class Solution{
             // Write code here
             if(map.containsKey(s))
             {
-                System.out.print(s+"="+s.)
+                System.out.print(s+"="+s.get(s));
             }
         }
         in.close();
