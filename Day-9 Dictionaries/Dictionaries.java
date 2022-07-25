@@ -16,7 +16,7 @@ class Solution{
         while(in.hasNext()){
             String s = in.next();
             // Write code here
-            if(map.has(s))
+            if(map.containsKey(s))
             {
                 System.out.print(s+"="+s.)
             }
