@@ -16,7 +16,10 @@ class Solution{
         while(in.hasNext()){
             String s = in.next();
             // Write code here
-            
+            if(map.has(s))
+            {
+                System.out.print(s+"="+s.)
+            }
         }
         in.close();
     }
