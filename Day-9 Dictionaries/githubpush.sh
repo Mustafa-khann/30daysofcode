@@ -8,5 +8,5 @@ do
     git commit -a -m "All done for Day-9"
     git push
 # DELAY OF 2 MINUTES FOR EVERY PUSH IN THE INFINITE LOOP
-    sleep 120
+    sleep 30
 done
