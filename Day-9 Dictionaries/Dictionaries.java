@@ -11,11 +11,12 @@ class Solution{
             String name = in.next();
             int phone = in.nextInt();
             // Write code here
-            hm.put(name,phone);
+            map.put(name,phone);
         }
         while(in.hasNext()){
             String s = in.next();
             // Write code here
+            
         }
         in.close();
     }
