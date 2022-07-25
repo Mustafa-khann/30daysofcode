@@ -16,13 +16,6 @@ class Solution{
         while(in.hasNext()){
             String s = in.next();
             // Write code here
-            if(hm.containsKey(s)){
-                System.out.print(s+" "+hm.get(s));
-                }
-                else
-                {
-                    System.out.println("Not found");
-                }
         }
         in.close();
     }
