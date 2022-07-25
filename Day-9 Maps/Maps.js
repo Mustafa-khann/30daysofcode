@@ -1,10 +1,9 @@
 const map = new Map();
 
 
-ht.set('france', 1);
-ht.set('greece', 2);
-ht.set('uk', 3);
-ht
+map.set('france', 1);
+map.set('greece', 2);
+map.set('uk', 3);
 
-console.log(ht.get('france'));
+console.log(map.get('france'));
 
