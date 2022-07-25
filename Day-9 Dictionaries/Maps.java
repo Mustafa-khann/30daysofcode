@@ -2,7 +2,8 @@
 import java.util.*;
 import java.io.*;
 
-class Solution{
+
+class HashMaps{
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
