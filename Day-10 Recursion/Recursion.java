@@ -17,6 +17,15 @@ class Result {
 
     public static int factorial(int n) {
     // Write your code here
+    if(n<=1)
+    {
+        return n;
+    }
+    else
+    {
+        return n*factorial(n-1);
+    }
+    
 
     }
 
@@ -36,5 +45,6 @@ public class Solution {
 
         bufferedReader.close();
         bufferedWriter.close();
+        System.out.println(result);
     }
 }
