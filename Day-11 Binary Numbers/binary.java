@@ -28,10 +28,9 @@ public class Solution {
                 if(temp<num)
                 {
                     temp=num;
-                }
-                else
+                }else
                 {
-                    num = temp;
+                    
                 }
             }
             else
