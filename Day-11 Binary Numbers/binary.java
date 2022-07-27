@@ -19,7 +19,7 @@ public class Solution {
         int temp = 0;
         int j = 0;
         String bin = Integer.toBinaryString(n);
-        for(int i = 0; i<bin.length(); i++);
+        for(int i = 0; i<=bin.length(); i++);
         {
             System.out.println(bin.length());
             if(bin.charAt(j)=='1')
