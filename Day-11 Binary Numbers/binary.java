@@ -23,6 +23,10 @@ public class Solution {
             if(bin.charAt(j)=='1')
             {
                 num++;
+                if(temp<num)
+                {
+                    temp=num;
+                }
             }
             else if(bin.charAt(j)=='0')
             {
@@ -30,6 +34,6 @@ public class Solution {
             }
             j++;
          }
-         System.out.println(num);
+         System.out.println(temp);
 }
 }
