@@ -23,18 +23,19 @@ public class Solution {
         {
             if(bin.charAt(j)=='1')
             {
-                ++num;
+                num++;
                 if(temp<num)
                 {
                     temp=num;
                 }
             }
-            else
+            else if(bin.charAt(j)=='0')
             {
                 num = 0;
             }
             j++;
         }
         System.out.println(temp);
+        System.out.println(bin);
     }
 }
