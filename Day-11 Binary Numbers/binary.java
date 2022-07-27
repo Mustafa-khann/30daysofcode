@@ -16,6 +16,7 @@ public class Solution {
 
         bufferedReader.close();
         int num = 0;
+        int temp = 0;
         int j = 0;
         String bin = Integer.toBinaryString(n);
         for(int i = 0; i<bin.length(); i++);
