@@ -19,21 +19,6 @@ public class Solution {
         int temp = 0;
         int j = 0;
         String bin = Integer.toBinaryString(n);
-        for(int i = 0; i<bin.length(); i++);
-        {
-            if(bin.charAt(j)==1)
-            {
-               num++;
-                if(temp<num)
-                {
-                    temp=num;
-                }
-            }
-            else
-            {
-                num = 0;
-            }
-            j++;
-        }
+        int[] binArr = Integer.toIn
     }
 }
