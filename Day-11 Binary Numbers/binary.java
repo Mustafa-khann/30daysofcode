@@ -23,7 +23,6 @@ public class Solution {
         {
             if(bin.charAt(j)=='1')
             {
-                System.out.println(bin.charAt(j));
                 ++num;
                 if(temp<num)
                 {
@@ -37,6 +36,5 @@ public class Solution {
             j++;
         }
         System.out.println(temp);
-        System.out.println(bin);
     }
 }
