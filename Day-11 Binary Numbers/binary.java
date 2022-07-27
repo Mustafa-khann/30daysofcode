@@ -23,8 +23,7 @@ public class Solution {
         {
             if(bin.charAt(j)==1)
             {
-                System.out.println(bin.charAt(j));
-                ++num;
+               num++;
                 if(temp<num)
                 {
                     temp=num;
