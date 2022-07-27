@@ -20,13 +20,13 @@ public class Solution {
         String bin = Integer.toBinaryString(n);
         for(int i = 0; i<bin.length(); i++);
         {
-            if(bin.charAt(j)==1)
+            if(bin.charAt(j)=='1')
             {
                 num++;
             }
-            else if(bin.charAt(j)==0)
+            else if(bin.charAt(j)=='0')
             {
-                num = 0;
+                num = 1;
             }
             j++;
          }
