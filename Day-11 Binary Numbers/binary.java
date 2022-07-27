@@ -17,12 +17,11 @@ public class Solution {
         bufferedReader.close();
         int num = 0;
         int temp = 0;
-        int j = 0;
         String bin = Integer.toBinaryString(n);
         for(int i = 0; i<bin.length(); i++)
         {
             
-            if(bin.charAt(j)=='1')
+            if(bin.charAt(i)=='1')
             {
                 num++;
                 if(temp<num)
@@ -30,11 +29,10 @@ public class Solution {
                     temp=num;
                 }
             }
-            else if(bin.charAt(j)=='0')
+            else if(bin.charAt(i)=='0')
             {
                 num = 0;
             }
-            j++;
         }
         System.out.println(temp);
     }
