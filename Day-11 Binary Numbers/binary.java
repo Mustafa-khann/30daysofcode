@@ -21,6 +21,7 @@ public class Solution {
         String bin = Integer.toBinaryString(n);
         for(int i = 0; i<bin.length(); i++);
         {
+            System.out.println(bin.length());
             if(bin.charAt(j)=='1')
             {
                 num++;
