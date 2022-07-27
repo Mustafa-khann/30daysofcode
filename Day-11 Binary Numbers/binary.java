@@ -20,5 +20,9 @@ public class Solution {
         int j = 0;
         String bin = Integer.toBinaryString(n);
         int[] binArr = new Array[bin.length()];
+        for(int i = 0 i<bin.length(); i++)
+        {
+            binArr[i] = Integer.valueOf
+        }
     }
 }
