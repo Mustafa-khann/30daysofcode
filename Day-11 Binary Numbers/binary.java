@@ -35,7 +35,5 @@ public class Solution {
             }
             j++;
         }
-        System.out.println(temp);
-        System.out.println(bin);
     }
 }
