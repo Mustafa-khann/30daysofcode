@@ -16,17 +16,18 @@ public class Solution {
 
         bufferedReader.close();
         int num = 0;
-        String bin = Integer.toBinaryString(bin);
-        for(int i = 0; i<bin.length; i++)
+        int j = 0;
+        String bin = Integer.toBinaryString(n);
+        for(int i = 0; i<bin.length(); i++);
         {
-            if(bin.charAt(i) == 1 && bin.charAt(i+1)!=0)
+            if(bin.charAt(j)==1)
             {
                 num++;
             }
-            else
+            else if(bin.charAt(j)==0)
             {
-                System.out.println(num);
+                num = 0;
             }
-        }
+            j++;
     }
 }
