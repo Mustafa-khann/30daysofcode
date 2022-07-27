@@ -22,7 +22,8 @@ public class Solution {
         int[] binArr = new Array[bin.length()];
         for(int i = 0 i<bin.length(); i++)
         {
-            binArr[i] = Integer.valueOf(bin)
+            binArr[j] = Integer.valueOf(bin.charAt(j));
+            j++;
         }
     }
 }
