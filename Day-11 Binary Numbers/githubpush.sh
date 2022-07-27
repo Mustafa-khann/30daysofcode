@@ -5,7 +5,7 @@ while :
 do
 # COMMANDS TO PUSH THE CODE TO GITHUB
     git add .
-    git commit -a -m "All done for Day-9"
+    git commit -a -m "All done for Day-11"
     git push
 # DELAY OF 2 MINUTES FOR EVERY PUSH IN THE INFINITE LOOP
     sleep 20

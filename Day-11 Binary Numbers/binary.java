@@ -29,5 +29,6 @@ public class Solution {
                 num = 0;
             }
             j++;
-    }
+         }
+}
 }
