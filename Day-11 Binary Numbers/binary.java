@@ -21,20 +21,22 @@ public class Solution {
         String bin = Integer.toBinaryString(n);
         for(int i = 0; i<bin.length(); i++);
         {
-            if(bin.charAt(j)=='1')
+            if(bin.charAt(j)==1)
             {
-                num++;
+                System.out.println(bin.charAt(j));
+                ++num;
                 if(temp<num)
                 {
                     temp=num;
                 }
             }
-            else if(bin.charAt(j)=='0')
+            else
             {
-                num = 1;
+                num = 0;
             }
             j++;
-         }
-         System.out.println(temp);
-}
+        }
+        System.out.println(temp);
+        System.out.println(bin);
+    }
 }
