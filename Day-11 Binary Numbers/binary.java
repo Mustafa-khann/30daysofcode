@@ -29,6 +29,10 @@ public class Solution {
                 {
                     temp=num;
                 }
+                else
+                {
+                    num = temp;
+                }
             }
             else
             {
