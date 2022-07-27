@@ -26,7 +26,6 @@ class Result {
         return n*factorial(n-1);
     }
     
-
     }
 
 }
