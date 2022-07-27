@@ -19,11 +19,24 @@ public class Solution {
         int temp = 0;
         int j = 0;
         String bin = Integer.toBinaryString(n);
-        int[] binArr = new Array[bin.length()];
-        for(int i = 0 i<bin.length(); i++)
+        for(int i = 0; i<bin.length(); i++);
         {
-            binArr[j] = Integer.valueOf(bin.charAt(j));
+            if(bin.charAt(j)=='1')
+            {
+                System.out.println(bin.charAt(j));
+                ++num;
+                if(temp<num)
+                {
+                    temp=num;
+                }
+            }
+            else
+            {
+                num = 0;
+            }
             j++;
         }
+        System.out.println(temp);
+        System.out.println(bin);
     }
 }
