@@ -34,7 +34,7 @@ public class Solution {
                 num = 0;
             }
             j++;
-            System.out.println(j);
+            System.out.println("j: "+j);
         }
         System.out.println(temp);
         System.out.println(bin);
