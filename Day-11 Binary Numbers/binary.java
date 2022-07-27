@@ -15,7 +15,7 @@ public class Solution {
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
         bufferedReader.close();
-        int num = 2;
+        int num = 0;
         int j = 0;
         String bin = Integer.toBinaryString(n);
         for(int i = 0; i<bin.length(); i++);
