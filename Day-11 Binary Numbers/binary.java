@@ -30,5 +30,6 @@ public class Solution {
             }
             j++;
          }
+         System.out.println(num);
 }
 }
