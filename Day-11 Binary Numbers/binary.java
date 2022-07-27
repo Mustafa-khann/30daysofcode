@@ -19,6 +19,6 @@ public class Solution {
         int temp = 0;
         int j = 0;
         String bin = Integer.toBinaryString(n);
-        int[] binArr = Integer.toIn
+        int[] binArr = new Array
     }
 }
