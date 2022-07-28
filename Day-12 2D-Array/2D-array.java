@@ -33,6 +33,7 @@ public class Solution {
             for(int j = 0; j<3; j++)
             {
                 int int1= arr.get(i).get(j);
+                System.out.println(int1);
                 int sum = int1+int1;
                 if(temp<sum)
                 {
