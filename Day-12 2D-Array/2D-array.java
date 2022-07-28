@@ -13,7 +13,7 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         List<List<Integer>> arr = new ArrayList<>();
-
+        int temp;
         for (int i = 0; i < 6; i++) {
             String[] arrRowTempItems = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
@@ -26,15 +26,19 @@ public class Solution {
 
             arr.add(arrRowItems);
         }
+        bufferedReader.close();
         // Solution
         for(int i = 0; i<3; i++)
         {
             for(int j = 0; j<3; j++)
             {
-                int sum = arr[i][j] +
+                int sum = arr[i][j] + arr[i+1][j+1];
+                if(temp<sum)
+                {
+                    temp = sum;
+                }
             }
         }
-
-        bufferedReader.close();
+        System.out.println(temp);
     }
 }
