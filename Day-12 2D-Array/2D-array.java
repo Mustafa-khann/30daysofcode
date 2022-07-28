@@ -32,7 +32,7 @@ public class Solution {
         {
             for(int j = 0; j<3; j++)
             {
-                int sum = arr[i][j] + arr[i][j];
+                int sum += (arr.charAt(i)(j) + arr.charAt(i)(j));
                 if(temp<sum)
                 {
                     temp = sum;
