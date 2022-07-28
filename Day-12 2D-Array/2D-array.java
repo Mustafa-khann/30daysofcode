@@ -32,11 +32,7 @@ public class Solution {
         {
             for(int j = 0; j<3; j++)
             {
-                int sum = arr[i][j] + arr;
-                if(temp<sum)
-                {
-                    temp = sum;
-                }
+                
             }
         }
         System.out.println(temp);
