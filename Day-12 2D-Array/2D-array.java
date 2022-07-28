@@ -32,7 +32,7 @@ public class Solution {
         {
             for(int j = 0; j<3; j++)
             {
-                
+                int sum += arr.get
             }
         }
         System.out.println(temp);
