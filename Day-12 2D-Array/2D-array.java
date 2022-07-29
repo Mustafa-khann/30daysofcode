@@ -40,7 +40,7 @@ public class Solution {
             {
                 for(int j = i; j<3; j++)
                 {
-                    sum = sum + arr.get(i).get(j);
+                    System.out.print("element: " +arr.get(i).get(j));
                     if(max < sum)
                     {
                         max = sum;
