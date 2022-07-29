@@ -28,17 +28,19 @@ int main()
         }
     }
     // Solution
-    for(int k=0; k<6; k++)
+    for(int l = 0; l<6; l++)
     {
-        for(int i = k; i<3; i++)
+        for(int k=l; k<4; k++)
         {
-            for(int j = i; j<3; j++)
+            for(int i = k; i<3; i++)
             {
-                
+                for(int j = i; j<3; j++)
+                {
+                    cout<<arr[i][j];
+                }
             }
         }
     }
-
     return 0;
 }
 
