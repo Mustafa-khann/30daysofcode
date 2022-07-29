@@ -1,45 +1,79 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+vector<string> split(const string &);
 
 
 
-public class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+int main()
+{
 
-        int[][] arr = new Array[6][6];
-        int max = 0;
-        for (int i = 0; i < 6; i++) {
-            String[] arrRowTempItems = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+    vector<vector<int>> arr(6);
 
-            List<Integer> arrRowItems = new ArrayList<>();
+    for (int i = 0; i < 6; i++) {
+        arr[i].resize(6);
 
-            for (int j = 0; j < 6; j++) {
-                int arrItem = Integer.parseInt(arrRowTempItems[j]);
-                arrRowItems.add(arrItem);
-            }
+        string arr_row_temp_temp;
+        getline(cin, arr_row_temp_temp);
 
-            arr.add(arrRowItems);
+        vector<string> arr_row_temp = split(rtrim(arr_row_temp_temp));
+
+        for (int j = 0; j < 6; j++) {
+            int arr_row_item = stoi(arr_row_temp[j]);
+
+            arr[i][j] = arr_row_item;
         }
-        bufferedReader.close();
-        // Solution
-        for(int i = 0; i<6; i++)
-        {
-            for(int j = i; j<3; j++)
-            {
-                int int1= arr[i];
-                int sum = int1+int1;
-                if(max<sum)
-                {
-                    max = sum;
-                }
-            }
-        }
-        System.out.println(max);
     }
+    // Solution
+    for(int i=0; i<6; i++)
+    {
+        for(int j = i; j<3; j++)
+        {
+            for(int k = j; k<)
+        }
+    }
+
+    return 0;
+}
+
+string ltrim(const string &str) {
+    string s(str);
+
+    s.erase(
+        s.begin(),
+        find_if(s.begin(), s.end(), not1(ptr_fun<int, int>(isspace)))
+    );
+
+    return s;
+}
+
+string rtrim(const string &str) {
+    string s(str);
+
+    s.erase(
+        find_if(s.rbegin(), s.rend(), not1(ptr_fun<int, int>(isspace))).base(),
+        s.end()
+    );
+
+    return s;
+}
+
+vector<string> split(const string &str) {
+    vector<string> tokens;
+
+    string::size_type start = 0;
+    string::size_type end = 0;
+
+    while ((end = str.find(" ", start)) != string::npos) {
+        tokens.push_back(str.substr(start, end - start));
+
+        start = end + 1;
+    }
+
+    tokens.push_back(str.substr(start));
+
+    return tokens;
 }
