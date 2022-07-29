@@ -32,7 +32,6 @@ int main()
     {
         for(int j = i; j<3; j++)
         {
-            for(int k = j; k<)
         }
     }
 
