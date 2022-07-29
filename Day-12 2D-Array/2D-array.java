@@ -12,7 +12,7 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        List<List<Integer>> arr = new ArrayList<>();
+        int[][] arr = new Array[6][6];
         int max = 0;
         for (int i = 0; i < 6; i++) {
             String[] arrRowTempItems = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
@@ -28,17 +28,16 @@ public class Solution {
         }
         bufferedReader.close();
         // Solution
-        for(int i = 0; i<3; i++)
+        for(int i = 0; i<6; i++)
         {
-            for(int j = 0; j<3; j++)
+            for(int j = i; j<3; j++)
             {
-                int int1= arr.get(i).get(j);
+                int int1= arr[i];
                 int sum = int1+int1;
                 if(max<sum)
                 {
                     max = sum;
                 }
-                
             }
         }
         System.out.println(max);
