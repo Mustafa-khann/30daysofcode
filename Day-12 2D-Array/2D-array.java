@@ -45,6 +45,7 @@ public class Solution {
                     if(max < sum)
                     {
                         max = sum;
+                        System.out.print("max: "+ max);
                     }
                 }
             }
