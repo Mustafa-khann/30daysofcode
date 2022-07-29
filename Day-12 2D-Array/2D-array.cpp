@@ -32,6 +32,7 @@ int main()
     {
         for(int j = i; j<3; j++)
         {
+            
         }
     }
 
