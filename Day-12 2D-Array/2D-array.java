@@ -17,6 +17,7 @@ public class Solution {
 
         List<List<Integer>> arr = new ArrayList<>();
         int max = 0;
+        int sum = 0;
         for (int i = 0; i < 6; i++) {
             String[] arrRowTempItems = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
@@ -39,7 +40,11 @@ public class Solution {
             {
                 for(int j = i; j<3; j++)
                 {
-                    System.out.println(arr.get(i).get(j));
+                    sum = sum + arr.get(i).get(j);
+                    if(max < sum)
+                    {
+                        max = sum;
+                    }
                 }
             }
         }
