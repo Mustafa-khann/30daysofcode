@@ -40,12 +40,10 @@ public class Solution {
             {
                 for(int j = i; j<3; j++)
                 {
-                    System.out.print(" " + sum);
                     sum = sum + arr.get(i).get(j);
                     if(max < sum)
                     {
                         max = sum;
-                        System.out.print("max: "+ max);
                     }
                 }
             }
