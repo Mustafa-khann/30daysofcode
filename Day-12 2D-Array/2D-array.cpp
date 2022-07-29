@@ -28,11 +28,14 @@ int main()
         }
     }
     // Solution
-    for(int i=0; i<6; i++)
+    for(int k=0; k<6; k++)
     {
-        for(int j = i; j<3; j++)
+        for(int i = k; i<3; i++)
         {
-            
+            for(int j = i; j<3; j++)
+            {
+                
+            }
         }
     }
 
