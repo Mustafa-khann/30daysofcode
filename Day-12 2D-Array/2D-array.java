@@ -32,24 +32,4 @@ public class Solution {
         }
         bufferedReader.close();
          // Solution
-    for(int l = 0; l<6; l++)
-    {
-        for(int k=l; k<4; k++)
-        {
-            for(int i = k; i<3; i++)
-            {
-                for(int j = i; j<3; j++)
-                {
-                    System.out.println("element: " +arr.get(i).get(j));
-                    if(max < sum)
-                    {
-                        // fuck it, imma do it tommorow
-                        max = sum;
-                    }
-                }
-            }
-        }
-    }
-    System.out.println(max);
-    }
 }
