@@ -22,11 +22,7 @@ class Person {
 }
 
 class Student extends Person{
-	private int[] testScores;
-    private String fName;
-    private String lName;
-    private int id;
-    private int noOfSubjects;
+	        int[] testScores;
     /*	
     *   Class Constructor
     *   
@@ -38,76 +34,52 @@ class Student extends Person{
 		
     
     // Write your constructor here
-    public void Student(String firstName, String lastName, int identification, int[] testScore)
-    {
-        this.fName = firstName;
-        this.lName = lastName;
-        this.id = identification;
-        this.testScores = testScore;
-        this.noOfSubjects = testScore.length;
+    Student(String firstName, String lastName, int identification , int [] scores)
+        {
+        super(firstName,lastName,identification );
+        this.testScores=scores;
     }
     
-	public void printPerson()
-	{
-		System.out.println("Name: "+fName+" "+lName);
-		System.out.println("ID:"+id);
-	}
     /*	
     *   Method Name: calculate
     *   @return A character denoting the grade.
     */
     // Write your method here
-	public static int calculate()
+	public char calculate()
 		{
             int Grade = 0;
-			for(int i = 0; i<noOfSubjects; i++)
+			for(int i = 0; i<testScores.length; i++)
 			{
-				Grade += testScores[i] + testScores[i+1];
+				Grade += testScores[i];
 			}
-			int finalGrade = Grade/noOfSubjects;
+			int finalGrade = Grade/testScores.length;
 			if( finalGrade >=90 && finalGrade <= 100)
 			{ 
 				return 'O';
 			}
-			if(finalGrade >=80 && finalGrade <= 89)
+			else if(finalGrade >=80 && finalGrade <= 89)
 			{
 				return 'E';
 			}
-			if(finalGrade >=70 && finalGrade <= 79)
+			else if(finalGrade >=70 && finalGrade <= 79)
 			{
 				return 'A';
 			}
-			if(finalGrade >=55 && finalGrade <= 69)
+			else if(finalGrade >=55 && finalGrade <= 69)
 			{
 				return 'P';
 			}
-			if(finalGrade >=40 && finalGrade <= 55)
+			else if(finalGrade >=40 && finalGrade <= 54)
 			{
 				return 'D';
 			}
-			if(finalGrade <= 39)
-			{
+			else if(finalGrade <= 39)
+      {
 				return 'T';
 			}
-			
+      else
+      return 'M';
 		}
 }
 
 class Solution {
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		String firstName = scan.next();
-		String lastName = scan.next();
-		int id = scan.nextInt();
-		int numScores = scan.nextInt();
-		int[] testScores = new int[numScores];
-		for(int i = 0; i < numScores; i++){
-			testScores[i] = scan.nextInt();
-		}
-		scan.close();
-		
-		Student s = new Student(firstName, lastName, id, testScores);
-		s.printPerson();
-		System.out.println("Grade: " + s.calculate());
-	}
-}
