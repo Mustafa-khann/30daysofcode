@@ -36,7 +36,8 @@ public class Solution {
         {
             for(int j = 0; j<columns-2; j++)
             {
-                int currentHourglassSum = arr.get(i).get(j) + arr.get(i).get(j+1) + arr.get(i).get(i+2) + arr.get(i+1).get(j+1)
+                int currentHourglassSum = arr.get(i).get(j) + arr.get(i).get(j+1) + 
+                arr.get(i).get(j+2) + arr.get(i+1).get(j+1) +
                 +arr.get(i+2).get(j)+arr.get(i+2).get(j+1)+arr.get(i+2).get(j+2);
                 maxHourglassSum = Math.max(maxHourglassSum, currentHourglassSum);
             }
