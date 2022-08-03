@@ -23,7 +23,7 @@ class Person {
 
 class Student extends Person{
 	private int[] testScores;
-    public static void Student(String firstName, String lastName, int identification, int[] testScores)
+    public Student(String firstName, String lastName, int identification, int[] testScores)
     {
         this.fName = firstName;
         this.lName = lastName;
