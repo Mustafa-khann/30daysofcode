@@ -12,6 +12,22 @@ import java.util.regex.*;
 
 
 public class Solution {
+    public static int hourGlassSum(ArrayList<Integer>)
+    {
+        int rows = arr.length;
+        int columns = arr[0].length;
+        int maxHourglassSum = -63;
+        for(int i = 0; i<rows-2; i++)
+        {
+            for(int j = 0; j<columns-2; j++)
+            {
+                int currentHourglassSum = arr[i][j] + arr[i][j+1] + arr[i][j+2] + arr[i+1][j+1]
+                +arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2];
+                maxHourglassSum = Math.max(maxHourglassSum, currentHourglassSum);
+            }
+        }
+        return maxHourglassSum;
+    }
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -31,6 +47,7 @@ public class Solution {
             arr.add(arrRowItems);
         }
         bufferedReader.close();
-         // Solution is not here yet.
-         
+        int output = hourGlassSum(arr);
+        System.out.println(output);
+    }
 }
