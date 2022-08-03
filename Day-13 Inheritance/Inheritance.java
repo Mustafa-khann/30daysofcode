@@ -23,12 +23,12 @@ class Person {
 
 class Student extends Person{
 	private int[] testScores;
-    public Student(String firstName, String lastName, int identification, int[] testScores)
+    public Student(String firstName, String lastName, int identification, int[] testScore)
     {
         this.fName = firstName;
         this.lName = lastName;
         this.id = identification;
-        this.testScores = testScores;
+        this.testScores = testScore;
     }
     /*	
     *   Class Constructor
