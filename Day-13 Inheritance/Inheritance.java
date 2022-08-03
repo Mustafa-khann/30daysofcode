@@ -23,13 +23,10 @@ class Person {
 
 class Student extends Person{
 	private int[] testScores;
-    public Student(String firstName, String lastName, int identification, int[] testScore)
-    {
-        this.fName = firstName;
-        this.lName = lastName;
-        this.id = identification;
-        this.testScores = testScore;
-    }
+    private String fName;
+    private String lName;
+    private int id;
+    private int noOfSubjects;
     /*	
     *   Class Constructor
     *   
@@ -38,15 +35,21 @@ class Student extends Person{
     *   @param id - An integer denoting the Person's ID number.
     *   @param scores - An array of integers denoting the Person's test scores.
     */
-		String fName;
-		String lName;
-		int id;
-		int Grade;
+		
     
     // Write your constructor here
+    public void Student(String firstName, String lastName, int identification, int[] testScore)
+    {
+        this.fName = firstName;
+        this.lName = lastName;
+        this.id = identification;
+        this.testScores = testScore;
+        this.noOfSubjects = testScore.length;
+    }
+    
 	public void printPerson()
 	{
-		System.out.println("Name: "+firstName+" "+lastName);
+		System.out.println("Name: "+fName+" "+lName);
 		System.out.println("ID:"+id);
 	}
     /*	
@@ -56,11 +59,12 @@ class Student extends Person{
     // Write your method here
 	public static int calculate()
 		{
-			for(int i = 0; i<testScores.length; i++)
+            int Grade = 0;
+			for(int i = 0; i<noOfSubjects; i++)
 			{
-				Grade = testScores[i] + testScores[i+1];
+				Grade += testScores[i] + testScores[i+1];
 			}
-			int finalGrade = Grade/testScores.length();
+			int finalGrade = Grade/noOfSubjects;
 			if( finalGrade >=90 && finalGrade <= 100)
 			{ 
 				return 'O';
