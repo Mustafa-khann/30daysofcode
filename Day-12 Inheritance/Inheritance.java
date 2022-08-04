@@ -13,7 +13,6 @@ class Person {
 		this.lastName = lastName;
 		this.idNumber = identification;
 	}
-	
 	// Print person data
 	public void printPerson(){
 		 System.out.println(
