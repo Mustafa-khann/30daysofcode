@@ -13,7 +13,7 @@ abstract class Book {
 }
 // Declare your class here. Do not use the 'public' access modifier.
     // Declare the price instance variable
-abstract class MyBook extends Book
+class MyBook extends Book
 {
     private int priceOfBook;
         /**   
