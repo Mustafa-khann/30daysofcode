@@ -5,8 +5,8 @@ while :
 do
 # git commands to push the code to github
     git add .
-    git commit -a -m "All done for Day-11"
+    git commit -a -m "All done for Day-13"
     git push
 # Delay of 20 seconds for every push to github.
     sleep 20
-done
+done  
