@@ -16,6 +16,8 @@ abstract class Book {
 abstract class MyBook extends Book
 {
     private int priceOfBook;
+    private String title;
+    private String author;
         /**   
     *   Class Constructor
     *   
