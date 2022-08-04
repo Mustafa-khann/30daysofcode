@@ -41,7 +41,8 @@ abstract class MyBook extends Book
     // Write your method here
     public void display()
     {
-        System.out.println("Title:" + )
+        System.out.println("Title:" + title );
+        System.out.println("Author:")
     }
     
 // End class
