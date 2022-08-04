@@ -24,9 +24,9 @@ abstract class MyBook extends Book
     *   @param price The book's price.
     **/
     // Write your constructor here
-     public MyBook(String title, String author, int price)
+    public MyBook(String title, String author, int price)
     {
-        Super(title,author);
+        super(title,author);
         this.priceOfBook = price;
     }
     /**   
