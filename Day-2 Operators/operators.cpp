@@ -22,7 +22,6 @@ void solve(double meal_cost, int tip_percent, int tax_percent) {
     double total = meal_cost + afterTax + afterTip;
     cout<<round(total);
 }
-
 int main()
 {
     string meal_cost_temp;
