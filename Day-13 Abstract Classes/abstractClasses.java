@@ -41,10 +41,8 @@ abstract class MyBook extends Book
         System.out.println("Author: " + author);
         System.out.println("Price: " + priceOfBook);
     }
-    
 // End class
 }
-
 
 public class Solution {
    
