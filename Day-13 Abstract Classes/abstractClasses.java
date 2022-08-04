@@ -16,8 +16,6 @@ abstract class Book {
 abstract class MyBook extends Book
 {
     private int priceOfBook;
-    private String title;
-    private String author;
         /**   
     *   Class Constructor
     *   
@@ -26,11 +24,9 @@ abstract class MyBook extends Book
     *   @param price The book's price.
     **/
     // Write your constructor here
-     public abstract void MyBook(String title, String author, int price)
+     public MyBook(String title, String author, int price)
     {
         Super(title,author);
-        this.title = title;
-        this.author = author;
         this.priceOfBook = price;
     }
     /**   
@@ -39,7 +35,7 @@ abstract class MyBook extends Book
     *   Print the title, author, and price in the specified format.
     **/
     // Write your method here
-    public void display()
+    void display()
     {
         System.out.println("Title: " + title );
         System.out.println("Author: " + author);
