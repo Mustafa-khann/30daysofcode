@@ -23,7 +23,7 @@ class Solution {
             head.next = new Node(data);
         }
         else{
-            return 
+            insert(head.next, data);
         }
     }
 
