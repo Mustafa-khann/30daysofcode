@@ -25,6 +25,7 @@ class Solution {
         else{
             insert(head.next, data);
         }
+        return head;
     }
 
 	public static void display(Node head) {
