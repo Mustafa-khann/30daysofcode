@@ -20,7 +20,10 @@ class Solution {
         }
         else if(head.next == null)
         {
-            
+            head.next = new Node(data);
+        }
+        else{
+            return 
         }
     }
 
