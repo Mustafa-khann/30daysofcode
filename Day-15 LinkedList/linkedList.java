@@ -14,9 +14,10 @@ class Solution {
 
     public static  Node insert(Node head,int data) {
         //Complete this method
-        LinkedList<int> list = new LinkedList<int>
-        list.add(data);
-        return head;
+        if(head == null)
+        {
+            return new Node(head)
+        }
     }
 
 	public static void display(Node head) {
