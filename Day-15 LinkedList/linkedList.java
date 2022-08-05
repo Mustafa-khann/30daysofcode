@@ -16,7 +16,11 @@ class Solution {
         //Complete this method
         if(head == null)
         {
-            return new Node(head)
+            return new Node(data);
+        }
+        else if(head.next == null)
+        {
+            
         }
     }
 
