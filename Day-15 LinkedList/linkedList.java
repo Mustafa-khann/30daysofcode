@@ -14,7 +14,9 @@ class Solution {
 
     public static  Node insert(Node head,int data) {
         //Complete this method
-        <LinkedList> 
+        LinkedList<int> list = new LinkedList<int>
+        list.add(data);
+        return head;
     }
 
 	public static void display(Node head) {
