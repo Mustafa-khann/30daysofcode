@@ -129,30 +129,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/build
 .PHONY : 30daysofcode/fast
 
-Day-0_Hello-World/Hello-world.o: Day-0_Hello-World/Hello-world.cpp.o
-.PHONY : Day-0_Hello-World/Hello-world.o
-
-# target to build an object file
-Day-0_Hello-World/Hello-world.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o
-.PHONY : Day-0_Hello-World/Hello-world.cpp.o
-
-Day-0_Hello-World/Hello-world.i: Day-0_Hello-World/Hello-world.cpp.i
-.PHONY : Day-0_Hello-World/Hello-world.i
-
-# target to preprocess a source file
-Day-0_Hello-World/Hello-world.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.i
-.PHONY : Day-0_Hello-World/Hello-world.cpp.i
-
-Day-0_Hello-World/Hello-world.s: Day-0_Hello-World/Hello-world.cpp.s
-.PHONY : Day-0_Hello-World/Hello-world.s
-
-# target to generate assembly for a file
-Day-0_Hello-World/Hello-world.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.s
-.PHONY : Day-0_Hello-World/Hello-world.cpp.s
-
 Day-15_LinkedList/linkedList.o: Day-15_LinkedList/linkedList.cpp.o
 .PHONY : Day-15_LinkedList/linkedList.o
 
@@ -177,78 +153,6 @@ Day-15_LinkedList/linkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.s
 .PHONY : Day-15_LinkedList/linkedList.cpp.s
 
-Day-1_Datatypes/Datatypes.o: Day-1_Datatypes/Datatypes.cpp.o
-.PHONY : Day-1_Datatypes/Datatypes.o
-
-# target to build an object file
-Day-1_Datatypes/Datatypes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o
-.PHONY : Day-1_Datatypes/Datatypes.cpp.o
-
-Day-1_Datatypes/Datatypes.i: Day-1_Datatypes/Datatypes.cpp.i
-.PHONY : Day-1_Datatypes/Datatypes.i
-
-# target to preprocess a source file
-Day-1_Datatypes/Datatypes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.i
-.PHONY : Day-1_Datatypes/Datatypes.cpp.i
-
-Day-1_Datatypes/Datatypes.s: Day-1_Datatypes/Datatypes.cpp.s
-.PHONY : Day-1_Datatypes/Datatypes.s
-
-# target to generate assembly for a file
-Day-1_Datatypes/Datatypes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.s
-.PHONY : Day-1_Datatypes/Datatypes.cpp.s
-
-Day-2_Operators/operators.o: Day-2_Operators/operators.cpp.o
-.PHONY : Day-2_Operators/operators.o
-
-# target to build an object file
-Day-2_Operators/operators.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o
-.PHONY : Day-2_Operators/operators.cpp.o
-
-Day-2_Operators/operators.i: Day-2_Operators/operators.cpp.i
-.PHONY : Day-2_Operators/operators.i
-
-# target to preprocess a source file
-Day-2_Operators/operators.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.i
-.PHONY : Day-2_Operators/operators.cpp.i
-
-Day-2_Operators/operators.s: Day-2_Operators/operators.cpp.s
-.PHONY : Day-2_Operators/operators.s
-
-# target to generate assembly for a file
-Day-2_Operators/operators.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.s
-.PHONY : Day-2_Operators/operators.cpp.s
-
-Day-3_Conditional_Statements/conditional.o: Day-3_Conditional_Statements/conditional.cpp.o
-.PHONY : Day-3_Conditional_Statements/conditional.o
-
-# target to build an object file
-Day-3_Conditional_Statements/conditional.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o
-.PHONY : Day-3_Conditional_Statements/conditional.cpp.o
-
-Day-3_Conditional_Statements/conditional.i: Day-3_Conditional_Statements/conditional.cpp.i
-.PHONY : Day-3_Conditional_Statements/conditional.i
-
-# target to preprocess a source file
-Day-3_Conditional_Statements/conditional.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.i
-.PHONY : Day-3_Conditional_Statements/conditional.cpp.i
-
-Day-3_Conditional_Statements/conditional.s: Day-3_Conditional_Statements/conditional.cpp.s
-.PHONY : Day-3_Conditional_Statements/conditional.s
-
-# target to generate assembly for a file
-Day-3_Conditional_Statements/conditional.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.s
-.PHONY : Day-3_Conditional_Statements/conditional.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -258,21 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 30daysofcode"
-	@echo "... Day-0_Hello-World/Hello-world.o"
-	@echo "... Day-0_Hello-World/Hello-world.i"
-	@echo "... Day-0_Hello-World/Hello-world.s"
 	@echo "... Day-15_LinkedList/linkedList.o"
 	@echo "... Day-15_LinkedList/linkedList.i"
 	@echo "... Day-15_LinkedList/linkedList.s"
-	@echo "... Day-1_Datatypes/Datatypes.o"
-	@echo "... Day-1_Datatypes/Datatypes.i"
-	@echo "... Day-1_Datatypes/Datatypes.s"
-	@echo "... Day-2_Operators/operators.o"
-	@echo "... Day-2_Operators/operators.i"
-	@echo "... Day-2_Operators/operators.s"
-	@echo "... Day-3_Conditional_Statements/conditional.o"
-	@echo "... Day-3_Conditional_Statements/conditional.i"
-	@echo "... Day-3_Conditional_Statements/conditional.s"
 .PHONY : help
 
 

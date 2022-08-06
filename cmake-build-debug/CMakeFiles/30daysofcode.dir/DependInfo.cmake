@@ -8,11 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-0 Hello-World/Hello-world.cpp" "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o"
   "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-15 LinkedList/linkedList.cpp" "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o"
-  "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-1 Datatypes/Datatypes.cpp" "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o"
-  "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-2 Operators/operators.cpp" "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o"
-  "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-3 Conditional Statements/conditional.cpp" "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

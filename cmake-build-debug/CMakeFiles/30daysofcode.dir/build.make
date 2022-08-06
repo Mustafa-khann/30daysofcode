@@ -66,35 +66,9 @@ include CMakeFiles/30daysofcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/30daysofcode.dir/flags.make
 
-CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o: CMakeFiles/30daysofcode.dir/flags.make
-CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o: ../Day-0\ Hello-World/Hello-world.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o -c "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-0 Hello-World/Hello-world.cpp"
-
-CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-0 Hello-World/Hello-world.cpp" > CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.i
-
-CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-0 Hello-World/Hello-world.cpp" -o CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.s
-
-CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o: CMakeFiles/30daysofcode.dir/flags.make
-CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o: ../Day-1\ Datatypes/Datatypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o -c "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-1 Datatypes/Datatypes.cpp"
-
-CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-1 Datatypes/Datatypes.cpp" > CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.i
-
-CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-1 Datatypes/Datatypes.cpp" -o CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.s
-
 CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o: CMakeFiles/30daysofcode.dir/flags.make
 CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o: ../Day-15\ LinkedList/linkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o -c "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-15 LinkedList/linkedList.cpp"
 
 CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.i: cmake_force
@@ -105,51 +79,17 @@ CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-15 LinkedList/linkedList.cpp" -o CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.s
 
-CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o: CMakeFiles/30daysofcode.dir/flags.make
-CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o: ../Day-2\ Operators/operators.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o -c "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-2 Operators/operators.cpp"
-
-CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-2 Operators/operators.cpp" > CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.i
-
-CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-2 Operators/operators.cpp" -o CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.s
-
-CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o: CMakeFiles/30daysofcode.dir/flags.make
-CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o: ../Day-3\ Conditional\ Statements/conditional.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o -c "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-3 Conditional Statements/conditional.cpp"
-
-CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-3 Conditional Statements/conditional.cpp" > CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.i
-
-CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-3 Conditional Statements/conditional.cpp" -o CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.s
-
 # Object files for target 30daysofcode
 30daysofcode_OBJECTS = \
-"CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o" \
-"CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o" \
-"CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o" \
-"CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o" \
-"CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o"
+"CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o"
 
 # External object files for target 30daysofcode
 30daysofcode_EXTERNAL_OBJECTS =
 
-30daysofcode: CMakeFiles/30daysofcode.dir/Day-0_Hello-World/Hello-world.cpp.o
-30daysofcode: CMakeFiles/30daysofcode.dir/Day-1_Datatypes/Datatypes.cpp.o
 30daysofcode: CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o
-30daysofcode: CMakeFiles/30daysofcode.dir/Day-2_Operators/operators.cpp.o
-30daysofcode: CMakeFiles/30daysofcode.dir/Day-3_Conditional_Statements/conditional.cpp.o
 30daysofcode: CMakeFiles/30daysofcode.dir/build.make
 30daysofcode: CMakeFiles/30daysofcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 30daysofcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 30daysofcode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/30daysofcode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

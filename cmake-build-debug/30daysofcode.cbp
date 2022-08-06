@@ -82,19 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-0 Hello-World/Hello-world.cpp">
-			<Option target="30daysofcode"/>
-		</Unit>
-		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-1 Datatypes/Datatypes.cpp">
-			<Option target="30daysofcode"/>
-		</Unit>
 		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-15 LinkedList/linkedList.cpp">
-			<Option target="30daysofcode"/>
-		</Unit>
-		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-2 Operators/operators.cpp">
-			<Option target="30daysofcode"/>
-		</Unit>
-		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-3 Conditional Statements/conditional.cpp">
 			<Option target="30daysofcode"/>
 		</Unit>
 		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/CMakeLists.txt">
