@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="30daysofcode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="30daysofcode">
+				<Option output="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/30daysofcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 30daysofcode"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="30daysofcode/fast">
+				<Option output="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/30daysofcode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 30daysofcode/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/mustafa/F682F08D82F053993/Study/Side\ Hustle/Programming/CPP/30daysofcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-0 Hello-World/Hello-world.cpp">
+			<Option target="30daysofcode"/>
+		</Unit>
+		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-1 Datatypes/Datatypes.cpp">
+			<Option target="30daysofcode"/>
+		</Unit>
+		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-15 LinkedList/linkedList.cpp">
+			<Option target="30daysofcode"/>
+		</Unit>
+		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-2 Operators/operators.cpp">
+			<Option target="30daysofcode"/>
+		</Unit>
+		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-3 Conditional Statements/conditional.cpp">
+			<Option target="30daysofcode"/>
+		</Unit>
+		<Unit filename="/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
