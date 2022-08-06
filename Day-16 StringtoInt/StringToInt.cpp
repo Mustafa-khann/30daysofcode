@@ -17,5 +17,6 @@ int main()
   {
     cout<<"Bad String"<<endl;
   }
+
     return 0;
 }
