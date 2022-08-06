@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o -o 30daysofcode 
+/usr/bin/c++ -g CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.o -o 30daysofcode 

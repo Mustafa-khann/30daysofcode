@@ -129,29 +129,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/build
 .PHONY : 30daysofcode/fast
 
-Day-15_LinkedList/linkedList.o: Day-15_LinkedList/linkedList.cpp.o
-.PHONY : Day-15_LinkedList/linkedList.o
+Day-16_StringtoInt/StringToInt.o: Day-16_StringtoInt/StringToInt.cpp.o
+.PHONY : Day-16_StringtoInt/StringToInt.o
 
 # target to build an object file
-Day-15_LinkedList/linkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.o
-.PHONY : Day-15_LinkedList/linkedList.cpp.o
+Day-16_StringtoInt/StringToInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.o
+.PHONY : Day-16_StringtoInt/StringToInt.cpp.o
 
-Day-15_LinkedList/linkedList.i: Day-15_LinkedList/linkedList.cpp.i
-.PHONY : Day-15_LinkedList/linkedList.i
+Day-16_StringtoInt/StringToInt.i: Day-16_StringtoInt/StringToInt.cpp.i
+.PHONY : Day-16_StringtoInt/StringToInt.i
 
 # target to preprocess a source file
-Day-15_LinkedList/linkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.i
-.PHONY : Day-15_LinkedList/linkedList.cpp.i
+Day-16_StringtoInt/StringToInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.i
+.PHONY : Day-16_StringtoInt/StringToInt.cpp.i
 
-Day-15_LinkedList/linkedList.s: Day-15_LinkedList/linkedList.cpp.s
-.PHONY : Day-15_LinkedList/linkedList.s
+Day-16_StringtoInt/StringToInt.s: Day-16_StringtoInt/StringToInt.cpp.s
+.PHONY : Day-16_StringtoInt/StringToInt.s
 
 # target to generate assembly for a file
-Day-15_LinkedList/linkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-15_LinkedList/linkedList.cpp.s
-.PHONY : Day-15_LinkedList/linkedList.cpp.s
+Day-16_StringtoInt/StringToInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.s
+.PHONY : Day-16_StringtoInt/StringToInt.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 30daysofcode"
-	@echo "... Day-15_LinkedList/linkedList.o"
-	@echo "... Day-15_LinkedList/linkedList.i"
-	@echo "... Day-15_LinkedList/linkedList.s"
+	@echo "... Day-16_StringtoInt/StringToInt.o"
+	@echo "... Day-16_StringtoInt/StringToInt.i"
+	@echo "... Day-16_StringtoInt/StringToInt.s"
 .PHONY : help
 
 
