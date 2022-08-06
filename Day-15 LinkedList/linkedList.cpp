@@ -16,11 +16,22 @@ public:
 
     Node* insert(Node *head,int data)
     {
-        //Complete this method
-
+        if(head == NULL)
+        {
+            return new Node(data);
+        }
+        else if(head->next == nullptr )
+        {
+            head->next = new Node(data);
+        }
+        else
+        {
+            insert(head->next, data);
+        }
+        return head;
     }
 
-    void display(Node *head)
+    static void display(Node *head)
     {
         Node *start=head;
         while(start)
