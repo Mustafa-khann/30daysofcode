@@ -1,0 +1,3 @@
+/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir
