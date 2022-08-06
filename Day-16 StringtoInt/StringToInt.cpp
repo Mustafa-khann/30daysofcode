@@ -12,6 +12,5 @@ int main()
 {
     string S;
     getline(cin, S);
-
     return 0;
 }
