@@ -6,9 +6,9 @@ class Node
 public:
     int data;
     Node *next;
-    Node(int d){
+    explicit Node(int d){
         data=d;
-        next=NULL;
+        next= nullptr;
     }
 };
 class Solution{
@@ -16,7 +16,7 @@ public:
 
     Node* insert(Node *head,int data)
     {
-        if(head == NULL)
+        if(head == nullptr)
         {
             return new Node(data);
         }
@@ -43,7 +43,7 @@ public:
 };
 int main()
 {
-    Node* head=NULL;
+    Node* head= nullptr;
     Solution mylist;
     int T,data;
     cin>>T;
