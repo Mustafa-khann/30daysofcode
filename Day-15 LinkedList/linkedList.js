@@ -15,3 +15,15 @@ b.next = c;
 c.next = d;
 
 // A -> B -> C -> D -> NULL
+
+
+const printLinkedList = (head) => {
+    let current = head;
+    while(current != null)
+    {
+        console.log(current.value);
+        current = current.next;
+    }
+};
+
+printLinkedList(a);
