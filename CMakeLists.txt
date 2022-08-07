@@ -4,4 +4,4 @@ project(30daysofcode)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(30daysofcode
-        "Day-16 StringtoInt/StringToInt.cpp")
+        "Day-17 More Exceptions/MoreExceptions.cpp")

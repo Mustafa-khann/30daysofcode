@@ -129,29 +129,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/build
 .PHONY : 30daysofcode/fast
 
-Day-16_StringtoInt/StringToInt.o: Day-16_StringtoInt/StringToInt.cpp.o
-.PHONY : Day-16_StringtoInt/StringToInt.o
+Day-17_More_Exceptions/MoreExceptions.o: Day-17_More_Exceptions/MoreExceptions.cpp.o
+.PHONY : Day-17_More_Exceptions/MoreExceptions.o
 
 # target to build an object file
-Day-16_StringtoInt/StringToInt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.o
-.PHONY : Day-16_StringtoInt/StringToInt.cpp.o
+Day-17_More_Exceptions/MoreExceptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-17_More_Exceptions/MoreExceptions.cpp.o
+.PHONY : Day-17_More_Exceptions/MoreExceptions.cpp.o
 
-Day-16_StringtoInt/StringToInt.i: Day-16_StringtoInt/StringToInt.cpp.i
-.PHONY : Day-16_StringtoInt/StringToInt.i
+Day-17_More_Exceptions/MoreExceptions.i: Day-17_More_Exceptions/MoreExceptions.cpp.i
+.PHONY : Day-17_More_Exceptions/MoreExceptions.i
 
 # target to preprocess a source file
-Day-16_StringtoInt/StringToInt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.i
-.PHONY : Day-16_StringtoInt/StringToInt.cpp.i
+Day-17_More_Exceptions/MoreExceptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-17_More_Exceptions/MoreExceptions.cpp.i
+.PHONY : Day-17_More_Exceptions/MoreExceptions.cpp.i
 
-Day-16_StringtoInt/StringToInt.s: Day-16_StringtoInt/StringToInt.cpp.s
-.PHONY : Day-16_StringtoInt/StringToInt.s
+Day-17_More_Exceptions/MoreExceptions.s: Day-17_More_Exceptions/MoreExceptions.cpp.s
+.PHONY : Day-17_More_Exceptions/MoreExceptions.s
 
 # target to generate assembly for a file
-Day-16_StringtoInt/StringToInt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.s
-.PHONY : Day-16_StringtoInt/StringToInt.cpp.s
+Day-17_More_Exceptions/MoreExceptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-17_More_Exceptions/MoreExceptions.cpp.s
+.PHONY : Day-17_More_Exceptions/MoreExceptions.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 30daysofcode"
-	@echo "... Day-16_StringtoInt/StringToInt.o"
-	@echo "... Day-16_StringtoInt/StringToInt.i"
-	@echo "... Day-16_StringtoInt/StringToInt.s"
+	@echo "... Day-17_More_Exceptions/MoreExceptions.o"
+	@echo "... Day-17_More_Exceptions/MoreExceptions.i"
+	@echo "... Day-17_More_Exceptions/MoreExceptions.s"
 .PHONY : help
 
 

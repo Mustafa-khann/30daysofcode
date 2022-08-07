@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-16 StringtoInt/StringToInt.cpp" "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir/Day-16_StringtoInt/StringToInt.cpp.o"
+  "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/Day-17 More Exceptions/MoreExceptions.cpp" "/media/mustafa/F682F08D82F053993/Study/Side Hustle/Programming/CPP/30daysofcode/cmake-build-debug/CMakeFiles/30daysofcode.dir/Day-17_More_Exceptions/MoreExceptions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
