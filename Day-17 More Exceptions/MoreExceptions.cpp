@@ -18,11 +18,11 @@ public:
         string err = "n and p should be non-negetive";
         if(x<0)
         {
-            throw invalid_argument("n and p should not be non-negetive");
+            throw invalid_argument("n and p should be non-negetive");
         }
         else if(y<0)
         {
-            throw invalid_argument("n and p should not be non-negetive");
+            throw invalid_argument("n and p should be non-negetive");
         }
         return pow(x,y);
     }
