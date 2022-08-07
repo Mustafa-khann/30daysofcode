@@ -15,8 +15,16 @@ class Calculator
 public:
     int power(int x, int y)
     {
-        int z = pow(x,y);
-        return z;
+        string err = "n and p should be non-negetive";
+        if(x<0)
+        {
+            throw invalid_argument("n and p should not be non-negetive");
+        }
+        else if(y<0)
+        {
+            throw invalid_argument("n and p should not be non-negetive");
+        }
+        return pow(x,y);
     }
     Calculator()
     {
