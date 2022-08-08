@@ -129,29 +129,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/build
 .PHONY : 30daysofcode/fast
 
-Day-17_More_Exceptions/MoreExceptions.o: Day-17_More_Exceptions/MoreExceptions.cpp.o
-.PHONY : Day-17_More_Exceptions/MoreExceptions.o
+Day-18_Stack_and_Queues/Stack_and_Queue.o: Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o
+.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.o
 
 # target to build an object file
-Day-17_More_Exceptions/MoreExceptions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-17_More_Exceptions/MoreExceptions.cpp.o
-.PHONY : Day-17_More_Exceptions/MoreExceptions.cpp.o
+Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o
+.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o
 
-Day-17_More_Exceptions/MoreExceptions.i: Day-17_More_Exceptions/MoreExceptions.cpp.i
-.PHONY : Day-17_More_Exceptions/MoreExceptions.i
+Day-18_Stack_and_Queues/Stack_and_Queue.i: Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i
+.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.i
 
 # target to preprocess a source file
-Day-17_More_Exceptions/MoreExceptions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-17_More_Exceptions/MoreExceptions.cpp.i
-.PHONY : Day-17_More_Exceptions/MoreExceptions.cpp.i
+Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i
+.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i
 
-Day-17_More_Exceptions/MoreExceptions.s: Day-17_More_Exceptions/MoreExceptions.cpp.s
-.PHONY : Day-17_More_Exceptions/MoreExceptions.s
+Day-18_Stack_and_Queues/Stack_and_Queue.s: Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s
+.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.s
 
 # target to generate assembly for a file
-Day-17_More_Exceptions/MoreExceptions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-17_More_Exceptions/MoreExceptions.cpp.s
-.PHONY : Day-17_More_Exceptions/MoreExceptions.cpp.s
+Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s
+.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 30daysofcode"
-	@echo "... Day-17_More_Exceptions/MoreExceptions.o"
-	@echo "... Day-17_More_Exceptions/MoreExceptions.i"
-	@echo "... Day-17_More_Exceptions/MoreExceptions.s"
+	@echo "... Day-18_Stack_and_Queues/Stack_and_Queue.o"
+	@echo "... Day-18_Stack_and_Queues/Stack_and_Queue.i"
+	@echo "... Day-18_Stack_and_Queues/Stack_and_Queue.s"
 .PHONY : help
 
 
