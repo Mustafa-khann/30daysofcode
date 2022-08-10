@@ -129,29 +129,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/build
 .PHONY : 30daysofcode/fast
 
-Day-18_Stack_and_Queues/Stack_and_Queue.o: Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o
-.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.o
+Day-21_Generics/Generics.o: Day-21_Generics/Generics.cpp.o
+.PHONY : Day-21_Generics/Generics.o
 
 # target to build an object file
-Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o
-.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.cpp.o
+Day-21_Generics/Generics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-21_Generics/Generics.cpp.o
+.PHONY : Day-21_Generics/Generics.cpp.o
 
-Day-18_Stack_and_Queues/Stack_and_Queue.i: Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i
-.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.i
+Day-21_Generics/Generics.i: Day-21_Generics/Generics.cpp.i
+.PHONY : Day-21_Generics/Generics.i
 
 # target to preprocess a source file
-Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i
-.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.cpp.i
+Day-21_Generics/Generics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-21_Generics/Generics.cpp.i
+.PHONY : Day-21_Generics/Generics.cpp.i
 
-Day-18_Stack_and_Queues/Stack_and_Queue.s: Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s
-.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.s
+Day-21_Generics/Generics.s: Day-21_Generics/Generics.cpp.s
+.PHONY : Day-21_Generics/Generics.s
 
 # target to generate assembly for a file
-Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s
-.PHONY : Day-18_Stack_and_Queues/Stack_and_Queue.cpp.s
+Day-21_Generics/Generics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/30daysofcode.dir/build.make CMakeFiles/30daysofcode.dir/Day-21_Generics/Generics.cpp.s
+.PHONY : Day-21_Generics/Generics.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 30daysofcode"
-	@echo "... Day-18_Stack_and_Queues/Stack_and_Queue.o"
-	@echo "... Day-18_Stack_and_Queues/Stack_and_Queue.i"
-	@echo "... Day-18_Stack_and_Queues/Stack_and_Queue.s"
+	@echo "... Day-21_Generics/Generics.o"
+	@echo "... Day-21_Generics/Generics.i"
+	@echo "... Day-21_Generics/Generics.s"
 .PHONY : help
 
 
